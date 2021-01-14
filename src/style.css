@@ -1,0 +1,166 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 55px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    color: white;
+    z-index: 9999;
+    position: fixed;
+}
+
+.header-left {
+    padding-top: 13px;
+    float: left;
+    padding: auto;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255,255,255,0.3);
+}
+.header-right:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.logo {
+    font-size: 20px;
+    padding: 26px 10px;
+    float: left;
+}
+
+.logo:first-child {
+    font-size: 30px;
+    padding: 20px 15px;
+}
+
+.row {
+    padding-top: 50px;
+}
+
+.product {
+    background: url('img/top-20200520-003.jpg');
+    background-position: center;
+}
+
+.history {
+    background: url('img/bar-counter-002.jpg');
+    background-position: center;
+}
+
+.pr {
+    background: url('img/masanobu-image.jpg');
+    background-position: center;
+}
+
+.home {
+    background: url('img/top-image.jpg');
+    background-position: center;
+}
+
+.contact {
+    background: url('img/breaktime-001.jpg');
+    background-position: center;
+}
+
+.top-wrapper { 
+    padding: 180px 0 100px 0;
+    background-size: cover;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper:before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.top-wrapper h2 {
+    opacity: 0.7;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.top-wrapper h3 {
+    opacity: 0.7;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.top-wrapper p {
+    opacity: 0.7;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.btn-wrapper {
+    margin: 30px 0 0 0;
+}
+
+.btn-wrapper p {
+    margin: 15px 0;
+}
+
+.btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 3px;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+  
+.twitter {
+    background-color: #55acee;
+}
+
+.box-heading {
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 33%;
+    padding: 5px 0px;
+    margin: 5px;
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+}
